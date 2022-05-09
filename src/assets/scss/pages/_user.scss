@@ -1,0 +1,22 @@
+.user-list {
+  justify-content: center;
+
+  .user-item {
+    transition: transform .2s;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    overflow: hidden;
+    margin: 140px 30px;
+
+    img {
+      width: 100%;
+      border-radius: 8px;
+      transition: transform .2s;
+    }
+
+    p {
+      margin: 16px 0 16px 16px;
+      font-size: 14px;
+    }
+  }
+}

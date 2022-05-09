@@ -1,0 +1,57 @@
+.page-header {
+  background: #99ffff;
+  color: black;
+  margin-bottom: 40px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  .header-logo{
+    margin: 5px;
+    .logo{
+      font-size: 30px;
+      animation: identifier 5s infinite ;
+    }
+    @keyframes identifier {
+      0%{
+        transform: rotate(0deg);
+      }
+      50%{
+        transform: rotate(180deg);
+      }
+      100%{
+        transform: rotate(360deg);
+      }
+    }
+  }
+  li{
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 22px;
+  }
+  a{
+    color:  black ;
+  }
+  .menu-list{
+    position: absolute;
+    left: 10%;
+  }
+  .header-action{
+    margin-right: 30px;
+    .counter{
+      position:relative;
+      span {
+        font-size: 13px;
+        color: white;
+        position: absolute;
+        margin: -10px -5px;
+        background-color: red;
+        border-radius: 50%;
+        padding: 2px 5px;
+      }
+    }
+  }
+}

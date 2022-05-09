@@ -1,0 +1,18 @@
+.product-show-list{
+  display:flex;
+  justify-content: space-around;
+  margin-top: 100px;  
+  .product-show-item{
+    font-size: 20px;
+    // img{
+    //   width: 200px;
+    //   height: 200px;
+    // }
+    .active{
+      color: red;
+    } 
+  }
+  .col-3{
+    max-width: 20%;
+  }
+}
